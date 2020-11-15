@@ -3,9 +3,11 @@
 }
 
 body {
+  background-image: url("https://media.npr.org/assets/img/2020/08/05/teacher-fears_final_wide-f20333b171f4b57ce66776b8935657e410652b66-s800-c85.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   background-color: #e9e6f2;
-  padding: 20px;
   color: #4d457b;
   font-family: "Roboto", sans-serif;
 }
@@ -13,7 +15,6 @@ body {
 h2 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 h3 {
@@ -31,44 +32,18 @@ ul {
 
 %stretch-panel {
   flex-grow: 1;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 20px;
   background-color: white;
 }
 
 .App {
-  &__header {
-    position: sticky;
-    padding: 10px;
-  }
 
-  &__user-selector {
-    padding: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    color: #4d457b;
-    border: 1px solid #4d457b;
-    border-radius: 5px;
-  }
-
-  &__main {
+  &__title {
+    margin: 40px auto;
     display: flex;
-    justify-content: stretch;
-    align-content: stretch;
-  }
-
-  &__sidebar {
-    @extend %stretch-panel;
-
-    flex-basis: 60%;
-    border-color: blue;
-  }
-
-  &__content {
-    @extend %stretch-panel;
-
-    flex-basis: 30%;
-    border-color: green;
+    max-width: fit-content;
+    color: #2f4f4f;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
   }
 }

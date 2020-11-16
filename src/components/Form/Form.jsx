@@ -68,7 +68,7 @@ export const Form = ({ districts, jobPlaces }) => {
   return (
     <form className="form consultation__form" onSubmit={onSubmit}>
 
-      {errName && <p className="form__error-empty">введіть ім`&apos;`я</p>}
+      {errName && <p className="form__error-empty">введіть ім&apos;я</p>}
       <input
         value={name}
         className="form__inpt"

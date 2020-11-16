@@ -1,5 +1,5 @@
 
-[DEMO LINK](https://<your_account>.github.io/react_dynamic-list-of-posts/);
-[CODE](https://<your_account>.github.io/react_dynamic-list-of-posts/);
+[DEMO LINK](https://andriifront.github.io/react_teachers-train-form/);
+[CODE](https://github.com/andriiFront/react_teachers-train-form/);
 
  
